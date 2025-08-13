@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Дашборд</title>
+</head>
+<body>
+  <h1>Дашборд</h1>
+  <ul>
+    <li><a href="{% url 'metrics:dashboard' %}">Метрики</a></li>
+    <li><a href="{% url 'integrations:api-list' %}">Интеграции</a></li>
+    <li><a href="{% url 'analyzer:analysisresult-list' %}">Анализ</a></li>
+  </ul>
+</body>
+</html>
